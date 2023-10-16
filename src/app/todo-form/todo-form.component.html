@@ -1,0 +1,4 @@
+<form #myForm = "ngForm">
+    <input id="add-todo-input" name="add-todo-input" type="text" [(ngModel)]="todoText" required>
+    <button (click)="onSubmit()">Add</button>
+</form>
